@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <user-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="blog_web_app_flutter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:userCleartextTraffic="true"
+        android:usesCleartextTraffic="true"
     >
         <activity
             android:name=".MainActivity"
